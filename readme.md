@@ -1,27 +1,27 @@
-# Hahow Quality Engineer 徵才小專案
-## Description
-- As the title, this mini project is for the Hahow Quality Engineer recruitment.
-- Use Robot Framework and Vscode.
+# Hahow Quality Engineer Recruitment
+### Description
+- Test Framework: Robot Framework
+- IDE: VS Code
 
 ## How to use?
 1. Clone this Project.
-2. Install requirements.
+2. Download Chrome WebDriver https://chromedriver.chromium.org/downloads, and put it in Dictionary.
+3. Install requirements.
 
-        git clone 
-        cd Hahow-Quality-Engineer
         pip install -r requirements.txt  
-
-3. Excute.
+4. Excute.
 
         robot -d reports/ test/
 
 ##  Dictionary structure
 
-    ├── reports/                    # 測試報告 
+    ├── reports/                    # Test Report and Screen Shot Img
     ├── tests/                  
-    │  ├── api_test.robot           # API測試
-    │  ├── ui_test.robot            # UI測試
-    │  └── chromedriver.exe         # WebDriver
+    │  ├── api_test.robot           # API test robot
+    │  └── ui_test.robot            # UI test robot
+    ├── locators/  
+    │  └── ui_locator.robot         # UI Locator
+    ├── chromedriver.exe            # WebDriver
     ├── .gitattributes
     ├── .gitignore
     ├── README.md
