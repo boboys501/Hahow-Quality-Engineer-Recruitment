@@ -1,0 +1,10 @@
+jsonpath-ng==1.5.3
+jsonschema==4.17.3
+requests==2.31.0
+robotframework==6.1
+robotframework-jsonlibrary==0.5
+robotframework-pythonlibcore==3.0.0
+robotframework-requests==0.9.5
+robotframework-selenium2library==3.0.0
+robotframework-seleniumlibrary==6.1.0
+
