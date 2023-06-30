@@ -1,4 +1,3 @@
-# Hahow Quality Engineer Recruitment
 ## Description
 - Language: Python 3.9.7
 - Test Framework: Robot Framework
